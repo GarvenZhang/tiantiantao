@@ -1,0 +1,56 @@
+.goodsdisplaywrapper {
+  margin: 100px 200px 0;
+}
+.goodsdisplaywrapper .section-hd {
+  position: relative;
+  text-align: center;
+}
+.goodsdisplaywrapper .section-hd::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  height: 1px;
+  background-color: gray;
+}
+.goodsdisplaywrapper .section-tt {
+  position: relative;
+  display: inline-block;
+  padding: 0 10px;
+  font: 900 24px/1 'Arial';
+  background-color: #fff;
+}
+.goodsdisplaywrapper .section-list {
+  display: flex;
+}
+.goodsdisplaywrapper .section-item {
+  position: relative;
+  flex: 1;
+  min-height: 400px;
+  margin: 20px;
+  background-color: lightgrey;
+}
+.goodsdisplaywrapper .item-info {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.section-item img {
+
+}
+.goodsdisplaywrapper .section-ft {
+  text-align: center;
+}
+.goodsdisplaywrapper .ft-text {
+  display: inline-block;
+  padding: 10px;
+  font-weight: 600;
+  background-color: lightgrey;
+}
+.goodsdisplaywrapper .ft-text:hover {
+  color: red;
+}

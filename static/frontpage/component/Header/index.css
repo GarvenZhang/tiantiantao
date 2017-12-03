@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  color: #fff;
+  background-color: #000;
+  z-index: 10;
+}
+.header > .logowrapper,
+.header > .infowrapper,
+.header > .searchwrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header > .logowrapper,
+.header > .infowrapper {
+  flex: 1;
+}
+.header > .searchwrapper {
+  flex: 3;
+}
+.searchwrapper .search-btn,
+.searchwrapper .search-inp {
+  height: 26px;
+  color: #000;
+}
+.infowrapper > .info-link {
+  color: #fff;
+  margin-left: 10px;
+}
+.infowrapper > .info-link:hover {
+  color: red;
+}

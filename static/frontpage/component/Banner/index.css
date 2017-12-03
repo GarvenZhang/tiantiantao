@@ -1,0 +1,17 @@
+.bannerwrapper {
+  margin: 100px 200px 0;
+  border: 1px solid #000;
+}
+.banner-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.banner-item {
+  min-width: 200px;
+  min-height: 100px;
+  text-align: center;
+  border: 1px solid grey;
+  margin: 10px;
+}

@@ -1,0 +1,15 @@
+.paginationwrapper {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 200px 0;
+}
+.paginationwrapper .pagesnum-list {
+  display: flex;
+  justify-content: space-around;
+}
+.paginationwrapper .pagesnum-item {
+  margin: 0 10px;
+}
+.paginationwrapper .pagesnum-item:hover .item-btn {
+  color: blue;
+}

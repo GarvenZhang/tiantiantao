@@ -1,0 +1,21 @@
+.goodschoice-wrap {
+  margin: 50px 200px 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid gray;
+}
+.section--price .section-form {
+  display: flex;
+  justify-content: space-around;
+}
+.section--price .range-form {
+  flex: 2;
+}
+.section--price .icon-rules {
+  display: inline-block;
+  width: 100px;
+  height: 1px;
+  vertical-align: middle;
+  margin: 0 10px;
+  background-color: gray;
+}
+

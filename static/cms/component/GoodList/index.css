@@ -1,0 +1,35 @@
+.goodslist-wrap {
+  margin: 50px 30px 30px 250px;
+}
+.goodslist-wrap .goods-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.goodslist-wrap .goods-item {
+  position: relative;
+  min-width: 200px;
+  min-height: 300px;
+  text-align: center;
+  margin: 0 10px 20px;
+  border: 1px solid gray;
+}
+.goodslist-wrap .goods-item::after {
+  content: 'X';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  border: 1px solid gray;
+  border-radius: 50%;
+  opacity: 0;
+}
+.goodslist-wrap .goods-item:hover::after {
+  transition: opacity 2s;
+  opacity: 1;
+  cursor: pointer;
+}
+.goodslist-wrap img {
+  width: 150px;
+  height: 225px;
+}

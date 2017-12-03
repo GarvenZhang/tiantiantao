@@ -1,0 +1,56 @@
+.popup-wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  height: 700px;
+  font: 800 18px/1 'Arial';
+  text-align: center;
+  color: #FFF;
+  background-color: #000;
+  transform: translate(-250px, -350px);
+}
+.popup-wrap::before {
+  content: '';
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  width: 2px;
+  height: 660px;
+  background-color: #fff;
+}
+.goods-edit .goods-tt {
+  font-size: 28px;
+  padding: 10px 0;
+}
+.goods-edit p:not(:first-child) {
+  text-align: left;
+  margin: 0 30px 10px;
+}
+.goods-edit input:not([type='button']) {
+  width: 300px;
+  margin-left: 60px;
+}
+.goods-edit .bigimg-upload-area,
+.goods-edit .smimg-upload-area {
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+  text-align: center;
+  font: 100 18px/200px 'Arial';
+  vertical-align: top;
+  margin-left: 60px;
+  background-color: lightgray;
+  cursor: pointer;
+}
+.goods-edit .goods-btn {
+  position: absolute;
+  bottom: 20px;
+  color: #000;
+}
+.goods-edit .btn-sure {
+  right: 20px;
+}
+.goods-edit .btn-close {
+  right: 80px;
+}

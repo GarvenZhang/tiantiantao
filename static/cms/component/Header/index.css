@@ -1,0 +1,30 @@
+.header {
+  margin: 50px 30px 30px 250px;
+  border-bottom: 2px solid #000;
+}
+.header .header-form::after {
+  content: '';
+  clear: both;
+  display: table;
+  margin-bottom: 10px;
+}
+.header .btn-add {
+  float: left;
+  width: 200px;
+  border: 1px solid gray;
+}
+.header .form-search {
+  float: right;
+  position: relative;
+}
+.header .icon-search {
+  position: absolute;
+  right: 10px;
+  z-index: 10;
+}
+.header .btn-search {
+  width: 200px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid gray
+}

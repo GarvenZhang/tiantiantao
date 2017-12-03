@@ -1,0 +1,24 @@
+.nav {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 200px;
+  height: 100vh;
+  padding-left: 20px;
+  background-color: #000;
+}
+.nav .nav-tt {
+  font: 800 24px/1 'Arial';
+  color: #fff;
+  margin: 20px 0 50px;
+}
+.nav .nav-item {
+  margin-bottom: 10vh;
+}
+.nav .nav-item:not(:nth-last-child(1)) .item-link {
+  font: 800 18px/1 'Arial';
+  color: #fff;
+}
+.nav .nav-item:last-child .item-link {
+  color: #fff;
+}
